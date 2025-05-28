@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Grunt</title>
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+</head>
+<body>
+    <main>
+        <h1>Convertedor</h1>
+        <form id="form-sorteador">
+            <div>
+                <ul class="options">
+                    <li>
+                        <input type="radio" name="unidade" id="lt-a-ml" value="1" checked>
+                        <label for="html">Litros a Milimetros</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="unidade" id="ml-a-lt" value="2">
+                        <label for="html">Milimetros a Litros</label>
+                    </li>
+                    <li>
+                        <label for="valor-a-converter">Converter</label>
+                            <input type="text" id="valor-a-converter" required>
+                    </li>
+                </ul>
+            </div>
+            <button type="submit">Sortear numero</button>
+        </form>
+        <div class="resultado">
+            Valor Convertido: <span id="resultado-valor"></span>
+        </div>
+    </main>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
